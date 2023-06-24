@@ -6,7 +6,7 @@ Este projeto é um dicionário que lista as mulheres negras que fizeram e ainda 
 ## :pushpin:Método:pushpin:
 :heavy_check_mark: Responsivo (Media Query)
 <br>
-:heavy_check_mark: Minibio adicionada com JavaScrip
+:heavy_check_mark: Minibio adicionada com JavaScript
 <br>
 :heavy_check_mark:Estilização CSS
 
