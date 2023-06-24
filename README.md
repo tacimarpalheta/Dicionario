@@ -13,5 +13,6 @@ Este projeto é um dicionário que lista as mulheres negras que fizeram e ainda 
 ## :woman_technologist: Tecnologias utilizadas :woman_technologist:
 <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><img align="center" alt="JavaScript" height="30" width="40" src="https://user-images.githubusercontent.com/84471000/195156744-8a21399b-f952-4765-b03c-c5feeb2c5fbe.svg">
 
+## :paperclip:Link:paperclip:
 
  
