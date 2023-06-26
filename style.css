@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@0,700;1,300&family=Roboto:wght@500&display=swap');
 
-body {font-family: 'Poppins', sans-serif;
-}
-
 header {
     height: 100px;
     border-bottom: 1px solid #808080;
@@ -37,6 +34,9 @@ header {
     }
   }
 
+  body {font-family: 'Poppins', sans-serif;
+  }
+  
   section {
     margin: 0 auto;
     display: block;

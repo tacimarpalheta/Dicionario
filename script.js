@@ -54,7 +54,7 @@ function carregaDicionario() {
     var content = document.getElementById("content");
 
     for (var bio in biografias) {
-        content.innerHTML +=  
+        content.innerHTML +=
             '<div class="Card">' +
             '<img src="' +
             biografias[bio].imagem +
@@ -69,8 +69,8 @@ function carregaDicionario() {
             "<blockquote><q>" +
             biografias[bio].citacao +
             "</q></blockquote>" +
-            "</details></div>";    
-            
+            "</details></div>";
+
     }
 
 }
