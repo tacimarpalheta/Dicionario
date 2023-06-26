@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed:ital,wght@0,700;1,300&family=Roboto:wght@500&display=swap');
 
-body {font-family: Open Sans, sans-serif;
+body {font-family: 'Poppins', sans-serif;
 }
 
 header {
     height: 100px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #808080;
     margin-bottom: 40px;
+    background-color: #f2f2f2;
+    text-align: center;
   }
 
   @media (max-width:768px) {
@@ -15,7 +18,15 @@ header {
     }
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
   h1 {
+    padding: 10px;
     text-transform: uppercase;
     margin-bottom: 0;
   }
@@ -36,10 +47,11 @@ header {
   .Card { 
     display: inline-block;
     margin: 10px;
-    border: 1px solid #000;
+    border: 1px solid #A9A9A9;
     vertical-align: top;
     max-height: 100%;
     text-align: justify;
+    box-shadow: 8px 8px#f2f2f2;
   }
 
 @media (max-width:768px) {
@@ -66,7 +78,7 @@ header {
     width: 300px;
     height: auto;
     display: inline-block;
-  }
+}
 
   @media (max-width: 768px) {
     .Card details {
@@ -77,6 +89,7 @@ header {
   .Card details summary {
     font-size: 18px;
     padding: 10px;
+    font-weight: bold;
   }
 
   @media (max-width: 768px) {
@@ -86,7 +99,7 @@ header {
 }
 
   .Card details p {
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
   }
 
   @media (max-width: 768px) {
@@ -95,11 +108,22 @@ header {
     }
 }
 
-
-
   .Card details blockquote {
     color: #777;
     font-style: italic;
+    padding: 0 20px 20px
   }
 
-  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #E8E8E8;
+    color: #4F4F4F;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin-top: 4rem;
+    padding: 2rem;
+  }
